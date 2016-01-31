@@ -11,3 +11,12 @@ Script is diveded into five part, one for each step in assignment:
  4. Appropriately labels the data set with descriptive activity names.
  5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+## how to run the analysis
+
+In your R enviroment (in the same folder where the data files are), load the script:
+
+```
+source('run_analysis.R')
+```
+
+The end result will be a file called `tidyextractedData.txt'` in the working directory.
