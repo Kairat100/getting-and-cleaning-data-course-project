@@ -18,5 +18,3 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
  10. Write the *cleanedData* out to "merged_data.txt" file in current working directory.  
  11. Finally, generate a second independent tidy data set with the average of each measurement for each activity and each subject. We have 30 unique subjects and 6 unique activities, which result in a 180 combinations of the two. Then, for each combination, we calculate the mean of each measurement with the corresponding combination. So, after initializing the *result* data frame and performing the two for-loops, we get a 180x68 data frame.
  12. Write the *result* out to "data_with_means.txt" file in current working directory. 
- 
-© Xiaodan Zhang 2014 All Rights reserved.
